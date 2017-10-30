@@ -1,0 +1,26 @@
+.menusect{
+	width: 100%;
+	height: 758px;
+	background: url('dark-triangles.png') center center repeat;
+}
+
+.img{
+	height: 200px;
+	width: 200px;
+}
+.btnsum{
+margin-left: 45%;
+}
+.name{
+	color: #fff;
+	margin-top: 0px;
+}
+.pricename{
+	color:#FFF;
+}
+#price{
+	padding-top: 30px;
+}
+.mdl{
+	text-align: center;
+}
