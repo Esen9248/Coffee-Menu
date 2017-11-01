@@ -9,9 +9,20 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
+	<section class="head">
+		<div class="container">
+			<div class="headdiv">
+				<img src="logo.jpg" class="logo">
+			</div>
+			
+		</div>
+	</section>
 <section class="menusect">
 	<div class="container">
 		<div class="row">
+			<div>
+				<h2 class="menuh2">Меню:</h2>
+			</div>
 			<div id="price">
 			<div class="col-md-3">
 				<img src="каппучино.jpg" class="img"><br>
@@ -75,12 +86,13 @@
         <h4 class="modal-title" id="myModalLabel">Заказ</h4>
       </div>
       <div class="modal-body mdl">
+      	<ul class="mdlul"></ul>
 		<h2>Ваш заказ</h2>
 	<h3>Итого:<span id="sum">0</span> сом</h3>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Отмена</button>
-        <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#myModal2">Сделать заказ</button>
+        <button type="button" class="btn btn-danger delete" data-dismiss="modal">Отмена</button>
+        <button type="button" class="btn btn-primary delete" data-dismiss="modal" data-toggle="modal" data-target="#myModal2">Сделать заказ</button>
       </div>
     </div>
   </div>
