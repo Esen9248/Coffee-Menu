@@ -4,7 +4,7 @@ var array = [];
 $('input[type=checkbox]').click(function(){
 	var sum = 0;
 	$('#price :checked').each(function(){
-		sum += parseInt($(this).val()) * $(this).next().next().val();
+		sum += parseInt($(this).val()) * $(this).prev().val();
 	});
 	$('#sum').text(sum);
 	if($(this).is(':checked')){
@@ -26,5 +26,6 @@ $('.delete').click(function(){
 	array = []
 	$('.mdlul').empty();
 	$(sum).text('0');
+	$('.quantity').val('');
 });
 });
