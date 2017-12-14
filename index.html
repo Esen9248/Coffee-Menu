@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Menu</title>
+	<meta charset="utf-8">
  <script type="text/javascript" src="jquery.3.2.1.min.js"></script>
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -9,7 +10,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-	<section class="head">
+	<section>
 		<div class="container">
 			<div class="headdiv">
 				<img src="logo.jpg" class="logo">
@@ -19,61 +20,60 @@
 	</section>
 <section class="menusect">
 	<div class="container">
-		<div class="row">
 			<div>
 				<h2 class="menuh2">Меню:</h2>
 			</div>
 			<div id="price">
-			<div class="col-md-3">
+			<div class="Product">
 				<img src="каппучино.jpg" class="img"><br>
 				<input type="number" placeholder="Количество (0)" class="form-control quantity">
 				<input type="checkbox" value="200"><br>
 				<h3 class="name">Каппучино</h3>
 				<p class="pricename">200 сом</p>
 			</div>
-				<div class="col-md-3">
+				<div class="Product">
 				<img src="американо.png" class="img"><br>
 				<input type="number" placeholder="Количество (0)" class="form-control quantity">
 				<input type="checkbox" value="150"><br>
 				<h3 class="name">Американо</h3>
 				<p class="pricename">150 сом</p>
 			</div>
-				<div class="col-md-3">
+				<div class="Product">
 				<img src="латте.jpg" class="img"><br>
 				<input type="number" placeholder="Количество (0)" class="form-control quantity">
 				<input type="checkbox" value="250"><br>
 				<h3 class="name">Латте</h3>
 				<p class="pricename">250 сом</p>
 			</div>
-				<div class="col-md-3">
+				<div class="Product">
 				<img src="эспрессо.jpg" class="img"><br>
 				<input type="number" placeholder="Количество (0)" class="form-control quantity">
 				<input type="checkbox" value="300"><br>
 				<h3 class="name">Эсспресо</h3>
 				<p class="pricename">300 сом</p>
 			</div>
-			<div class="col-md-3">
+			<div class="Product">
 				<img src="айскаппучино.jpg" class="img"><br>
 				<input type="number" placeholder="Количество (0)" class="form-control quantity">
 				<input type="checkbox" value="300"><br>
 				<h3 class="name">Айс Каппучино</h3>
 				<p class="pricename">300 сом</p>
 			</div>
-			<div class="col-md-3">
+			<div class="Product">
 				<img src="айсамерикано.jpg" class="img"><br>
 				<input type="number" placeholder="Количество (0)" class="form-control quantity">
 				<input type="checkbox" value="300"><br>
 				<h3 class="name">Айс Американо</h3>
 				<p class="pricename">300 сом</p>
 			</div>
-			<div class="col-md-3">
+			<div class="Product">
 				<img src="айслатте.jpg" class="img"><br>
 				<input type="number" placeholder="Количество (0)" class="form-control quantity">
 				<input type="checkbox" value="300"><br>
 				<h3 class="name">Айс Латте</h3>
 				<p class="pricename">300 сом</p>
 			</div>
-			<div class="col-md-3">
+			<div class="Product">
 				<img src="даблэспрессо.jpg" class="img"><br>
 				<input type="number" placeholder="Количество (0)" class="form-control quantity">
 				<input type="checkbox" value="300"><br>
@@ -81,8 +81,7 @@
 				<p class="pricename">300 сом</p>
 			</div>
 		</div>
-	</div>
-		</div>	
+	</div>	
 	<button class="btnsum btn btn-success" type="button" data-toggle="modal" data-target="#myModal">Заказ</button>
 </section>
 <!-- Modal -->
